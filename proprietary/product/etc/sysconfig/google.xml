@@ -121,6 +121,9 @@
     <!-- AI services open-source network component can bind to AI Core. -->
     <allow-association target="com.google.android.as.oss" allowed="com.google.android.aicore" />
 
+    <!-- Pixel Launcher can bind to the open-source network component. -->
+    <allow-association target="com.google.android.as.oss" allowed="com.google.android.apps.nexuslauncher" />
+
     <!-- Specify the explicit set of other applications whose app data directories are
         accessible by other applications. -->
     <app-data-isolation-whitelisted-app package="com.google.android.gms" />
@@ -136,7 +139,8 @@
     <automatic-rollback-denylisted-app package="com.android.vending" />
     <automatic-rollback-denylisted-app package="com.google.android.gms" />
 
-    <!-- Allow device lock controller app to schedule jobs and alarms when app in background,
-        otherwise, it may not be able to enforce provision for managed devices. -->
+    <!-- Allow device lock controller app to schedule jobs and alarms, and have network access when app
+         in background; otherwise, it may not be able to enforce provision for managed devices. -->
     <allow-in-power-save package="com.google.android.devicelockcontroller" />
+    <allow-in-data-usage-save package="com.google.android.devicelockcontroller" />
 </config>
