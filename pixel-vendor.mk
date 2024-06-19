@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
-    TurboPrebuilt \
     Flipendo \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
@@ -106,5 +105,4 @@ PRODUCT_PACKAGES += \
     SystemUIClocks-Growth \
     SystemUIClocks-Inflate \
     SystemUIClocks-Metro \
-    SystemUIClocks-NumOverlap \
-    TurboAdapter
+    SystemUIClocks-NumOverlap
