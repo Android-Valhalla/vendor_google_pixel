@@ -82,8 +82,9 @@ product/media/audio/ui/WirelessChargingStarted.ogg
 -product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk;PRESIGNED
 -product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
 -product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED|1e12b727cb9d2886ff533ba980d17808609faab8
-product/priv-app/TurboPrebuilt/TurboPrebuilt.apk
+product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
 system_ext/etc/permissions/privapp-permissions-google-se.xml
+system_ext/priv-app/TurboAdapter/TurboAdapter.apk
 -system_ext/app/Flipendo/Flipendo.apk
 
 # AOSP Sounds
