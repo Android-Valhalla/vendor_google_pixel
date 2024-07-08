@@ -98,6 +98,7 @@ PRODUCT_PACKAGES += \
     AndroidAutoStubPrebuilt \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
+    TurboPrebuilt \
     Flipendo \
     SystemUIClocks-BigNum \
     SystemUIClocks-Calligraphy \
