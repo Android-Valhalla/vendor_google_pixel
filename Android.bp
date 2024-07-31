@@ -13,9 +13,6 @@ android_app_import {
 	apk: "proprietary/product/app/MarkupGoogle/MarkupGoogle.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	product_specific: true,
 }
 
@@ -25,10 +22,11 @@ android_app_import {
 	apk: "proprietary/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	product_specific: true,
+        optional_uses_libs: [
+            "androidx.window.extensions",
+            "androidx.window.sidecar",
+        ],
 }
 
 android_app_import {
@@ -37,10 +35,11 @@ android_app_import {
 	apk: "proprietary/product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
+        optional_uses_libs: [
+            "androidx.window.extensions",
+            "androidx.window.sidecar",
+        ],
 	product_specific: true,
 }
 
@@ -50,9 +49,6 @@ android_app_import {
 	apk: "proprietary/product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
 }
@@ -63,11 +59,12 @@ android_app_import {
 	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
+        optional_uses_libs: [
+            "androidx.window.extensions",
+            "androidx.window.sidecar",
+        ],
 }
 
 android_app_import {
@@ -76,11 +73,13 @@ android_app_import {
 	apk: "proprietary/product/priv-app/TurboPrebuilt/TurboPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
 	privileged: true,
 	product_specific: true,
+        optional_uses_libs: [
+            "org.apache.http.legacy",
+            "androidx.window.extensions",
+            "androidx.window.sidecar",
+        ],
 }
 
 android_app_import {
@@ -88,10 +87,11 @@ android_app_import {
 	owner: "google",
 	apk: "proprietary/system_ext/app/Flipendo/Flipendo.apk",
 	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
 	system_ext_specific: true,
+        optional_uses_libs: [
+            "androidx.window.extensions",
+            "androidx.window.sidecar",
+        ],
 }
 
 android_app_import {
@@ -183,9 +183,6 @@ android_app_import {
         owner: "google",
         apk: "proprietary/system_ext/priv-app/TurboAdapter/TurboAdapter.apk",
         certificate: "platform",
-        dex_preopt: {
-                enabled: false,
-        },
         privileged: true,
         system_ext_specific: true,
 }
