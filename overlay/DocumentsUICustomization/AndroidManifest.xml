@@ -19,5 +19,6 @@
     <overlay
         android:isStatic="true"
         android:priority="550"
-        android:targetPackage="com.android.documentsui" />
+        android:targetPackage="com.android.documentsui"
+        android:targetName="DocumentsUICustomization" />
 </manifest>
