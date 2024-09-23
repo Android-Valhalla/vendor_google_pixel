@@ -23,6 +23,7 @@ android_app_import {
 	preprocessed: true,
 	presigned: true,
 	optional_uses_libs: ["android.ext.adservices", "androidx.window.extensions", "androidx.window.sidecar"],
+	overrides: ["SoundPicker"],
 	product_specific: true,
 }
 
