@@ -23,7 +23,7 @@ PRODUCT_PACKAGES += \
     PixelSystemUIOverlay
 
 # Set default ringtone, notification and alarm
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.config.alarm_alert=Fresh_start.ogg \
-    ro.config.notification_sound=Eureka.ogg \
-    ro.config.ringtone=Your_new_adventure.ogg
+# PRODUCT_PRODUCT_PROPERTIES += \
+#    ro.config.alarm_alert=Fresh_start.ogg \
+#    ro.config.notification_sound=Eureka.ogg \
+#    ro.config.ringtone=Your_new_adventure.ogg
