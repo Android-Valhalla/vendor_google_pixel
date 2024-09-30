@@ -26,6 +26,12 @@
     <allow-ignore-location-settings package="com.google.android.gms" attributionTag="com.google.android.gms.thunderbird" />
     <allow-ignore-location-settings package="com.google.android.dialer" attributionTag="*" />
 
+    <!-- SCONE must get device location for satellite emergency communications. -->
+    <allow-ignore-location-settings package="com.google.android.apps.scone" attributionTag="satellite_esos" />
+
+    <!-- Satellite access controller must get device location for satellite emergency communications. -->
+    <allow-ignore-location-settings package="com.android.phone" attributionTag="telephony" />
+
     <!-- OobConfig must always have network access to fetch enterprise and carrier lock config. -->
     <allow-in-power-save-except-idle package="com.google.android.apps.work.oobconfig" />
     <allow-in-data-usage-save package="com.google.android.apps.work.oobconfig" />

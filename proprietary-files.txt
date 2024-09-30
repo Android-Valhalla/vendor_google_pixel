@@ -1,5 +1,5 @@
 -product/app/MarkupGoogle/MarkupGoogle.apk;PRESIGNED
--product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OLIBS=androidx.window.extensions,androidx.window.sidecar
+-product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED;OLIBS=android.ext.adservices,androidx.window.extensions,androidx.window.sidecar;OVERRIDES=SoundPicker
 product/etc/permissions/privapp-permissions-google-p.xml
 product/etc/sysconfig/google.xml
 product/etc/sysconfig/google_build.xml

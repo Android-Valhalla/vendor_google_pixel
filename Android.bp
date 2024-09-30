@@ -22,7 +22,8 @@ android_app_import {
 	apk: "proprietary/product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
 	preprocessed: true,
 	presigned: true,
-	optional_uses_libs: ["androidx.window.extensions", "androidx.window.sidecar"],
+	optional_uses_libs: ["android.ext.adservices", "androidx.window.extensions", "androidx.window.sidecar"],
+	overrides: ["SoundPicker"],
 	product_specific: true,
 }
 
